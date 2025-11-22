@@ -362,7 +362,7 @@ function Content() {
             Type <span className="font-mono">{'{debug.jsonf}'}</span> to see the
             available variables. For a more detailed explanation, check the{' '}
             <a
-              href="https://github.com/Viren070/AIOStreams/wiki/Custom-Formatter"
+              href="https://github.com/MaheshSankaran/AI/wiki/Custom-Formatter"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[--brand] hover:text-[--brand]/80 hover:underline"
@@ -371,7 +371,7 @@ function Content() {
             </a>
             . You can also check the definitions of the predefined formatters{' '}
             <a
-              href="https://github.com/Viren070/AIOStreams/blob/main/packages/core/src/formatters/predefined.ts"
+              href="https://github.com/MaheshSankaran/AI/blob/main/packages/core/src/formatters/predefined.ts"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[--brand] hover:text-[--brand]/80 hover:underline"

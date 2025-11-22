@@ -14,16 +14,16 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/Viren070/AIOStreams/actions/workflows/deploy-docker.yml"> 
-        <img src="https://img.shields.io/github/actions/workflow/status/viren070/aiostreams/deploy-docker.yml?style=for-the-badge&logo=github" alt="Build Status">
+    <a href="https://github.com/MaheshSankaran/AI/actions/workflows/deploy-docker.yml"> 
+        <img src="https://img.shields.io/github/actions/workflow/status/MaheshSankaran/AI/deploy-docker.yml?style=for-the-badge&logo=github" alt="Build Status">
     </a>
-    <a href="https://github.com/Viren070/AIOStreams/releases/latest">
-        <img src="https://img.shields.io/github/v/release/viren070/aiostreams?style=for-the-badge&logo=github" alt="Latest Release">
+    <a href="https://github.com/MaheshSankaran/AI/releases/latest">
+        <img src="https://img.shields.io/github/v/release/MaheshSankaran/AI?style=for-the-badge&logo=github" alt="Latest Release">
     </a>
-    <a href="https://github.com/Viren070/AIOStreams/stargazers">
-        <img src="https://img.shields.io/github/stars/Viren070/AIOStreams?style=for-the-badge&logo=github " alt="GitHub Stars">
+    <a href="https://github.com/MaheshSankaran/AI/stargazers">
+        <img src="https://img.shields.io/github/stars/MaheshSankaran/AI?style=for-the-badge&logo=github " alt="GitHub Stars">
     </a>
-    <a href="https://hub.docker.com/r/viren070/aiostreams">
+    <a href="https://hub.docker.com/r/MaheshSankaran/AI">
         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry-stats.viren070.me%2Fapi%2Fdh%3Aviren070%2Faiostreams%2Cghcr%3Aviren070%2Faiostreams%2Faiostreams&query=%24.total_downloads_formatted&logo=docker&label=pulls&style=for-the-badge" alt="Docker Pulls">
     </a>
     <a href="https://discord.viren070.me">
@@ -95,7 +95,7 @@ Because all addons are routed through AIOStreams, you only have to **configure y
 - **Accurate Title Matching**: Leverages the TMDB API to precisely match titles, years, and season/episode numbers, ensuring you always get the right content. This can be granularly applied to specific addons or content types.
 - **Powerful Conditional Engine**: Create dynamic rules with a simple yet powerful expression language.
   - _Example_: Only exclude 720p streams if more than five 1080p streams are available: `count(resolution(streams, '1080p')) > 5 ? resolution(streams, '720p') : false`.
-  - Check the wiki for a [full function reference](https://github.com/Viren070/AIOStreams/wiki/Stream-Expression-Language).
+  - Check the wiki for a [full function reference](https://github.com/MaheshSankaran/AI/wiki/Stream-Expression-Language).
 - **Customisable Deduplication**: Choose how duplicate streams are detected: by filename, infohash, and a unique "smart detect" hash generated from certain file attributes.
 - **Sophisticated Sorting**:
   - Build your perfect sort order using any combination of criteria.
@@ -121,7 +121,7 @@ Take control of your Stremio home page. AIOStreams lets you manage catalogs from
 - **Custom Stream Formatting**: Design exactly how stream information is displayed using a powerful templating system.
 - **Live Preview**: See your custom format changes in real-time as you build them.
 - **Predefined Formats**: Get started quickly with built-in formats, some created by me and others inspired by other popular addons like Torrentio and the TorBox Stremio Addon.
-- **[Custom Formatter Wiki](https://github.com/Viren070/AIOStreams/wiki/Custom-Formatter)**: Dive deep into the documentation to create your perfect stream title.
+- **[Custom Formatter Wiki](https://github.com/MaheshSankaran/AI/wiki/Custom-Formatter)**: Dive deep into the documentation to create your perfect stream title.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/906cc3fc-16d1-4702-99c7-425b2445387b" alt="Custom Formatter UI" width="750"/>
@@ -158,14 +158,14 @@ Setting up AIOStreams is simple.
 
 For detailed instructions, check out the Wiki:
 
-- **[Deployment Guide](https://github.com/Viren070/AIOStreams/wiki/Deployment)**
-- **[Configuration Guide](https://github.com/Viren070/AIOStreams/wiki/Configuration)**
+- **[Deployment Guide](https://github.com/MaheshSankaran/AI/wiki/Deployment)**
+- **[Configuration Guide](https://github.com/MaheshSankaran/AI/wiki/Configuration)**
 
 ## ❤️ Support the Project
 
 AIOStreams is a passion project developed and maintained for free. If you find it useful, please consider supporting its development.
 
-- ⭐ **Star the Repository** on [GitHub](https://github.com/Viren070/AIOStreams).
+- ⭐ **Star the Repository** on [GitHub](https://github.com/MaheshSankaran/AI).
 - ⭐ **Star the Addon** in the [Stremio Community Catalog](https://beta.stremio-addons.net/addons/aiostreams).
 - 🤝 **Contribute**: Report issues, suggest features, or submit pull requests.
 - ☕ **Donate**:
@@ -177,7 +177,7 @@ AIOStreams is a passion project developed and maintained for free. If you find i
 <h2 align="center"> ⭐ Star History</h2>
 
 <p align="center">
-  <img src="https://api.star-history.com/svg?repos=Viren070/AIOStreams&type=Date" href="https://www.star-history.com/#Viren070/AIOStreams&Date" alt="Filtering and Sorting Rules" width="750"/>
+  <img src="https://api.star-history.com/svg?repos=MaheshSankaran/AI&type=Date" href="https://www.star-history.com/#MaheshSankaran/AI&Date" alt="Filtering and Sorting Rules" width="750"/>
 </p>
 
 ---

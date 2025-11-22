@@ -206,7 +206,7 @@ export function TemplateExportModal({
               For more customisability, edit the JSON file after exporting
               manually. See the{' '}
               <a
-                href="https://github.com/Viren070/AIOStreams/wiki/Templates"
+                href="https://github.com/MaheshSankaran/AI/wiki/Templates"
                 target="_blank"
                 className="text-[--brand] hover:text-[--brand]/80 hover:underline"
                 rel="noopener noreferrer"

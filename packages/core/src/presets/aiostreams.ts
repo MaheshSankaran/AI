@@ -145,7 +145,7 @@ export class AIOStreamsPreset extends Preset {
     return {
       ID: 'aiostreams',
       NAME: 'AIOStreams',
-      LOGO: 'https://raw.githubusercontent.com/Viren070/AIOStreams/refs/heads/main/packages/frontend/public/assets/logo.png',
+      LOGO: 'https://raw.githubusercontent.com/MaheshSankaran/AI/refs/heads/main/packages/frontend/public/assets/logo.png',
       URL: '',
       TIMEOUT: Env.DEFAULT_TIMEOUT,
       USER_AGENT: Env.AIOSTREAMS_USER_AGENT,

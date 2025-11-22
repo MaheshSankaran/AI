@@ -130,8 +130,8 @@ AIOStreams consolidates multiple Stremio addons and debrid services - including 
   `;
   const addonDescription = userData.addonDescription || defaultDescription;
   const version = status?.tag || 'Unknown';
-  const githubUrl = 'https://github.com/Viren070/AIOStreams';
-  const releasesUrl = 'https://github.com/Viren070/AIOStreams/releases';
+  const githubUrl = 'https://github.com/MaheshSankaran/AI';
+  const releasesUrl = 'https://github.com/MaheshSankaran/AI/releases';
   const stremioGuideUrl = 'https://guides.viren070.me/stremio/';
   const configGuideUrl = 'https://guides.viren070.me/stremio/addons/aiostreams';
   const discordUrl = 'https://discord.viren070.me';
@@ -217,7 +217,7 @@ AIOStreams consolidates multiple Stremio addons and debrid services - including 
                 {/* {version.includes('nightly') ? `(${status?.commit})` : ''} */}
                 {version.includes('nightly') ? (
                   <a
-                    href={`https://github.com/Viren070/AIOStreams/commit/${status?.commit}`}
+                    href={`https://github.com/MaheshSankaran/AI/commit/${status?.commit}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[--brand] hover:underline"
@@ -341,7 +341,7 @@ AIOStreams consolidates multiple Stremio addons and debrid services - including 
                       Configuration Guide
                     </QuickLink>
                     <QuickLink
-                      href="https://github.com/Viren070/AIOStreams/wiki"
+                      href="https://github.com/MaheshSankaran/AI/wiki"
                       icon={<BookOpenIcon className="w-8 h-8" />}
                     >
                       Wiki
@@ -515,7 +515,7 @@ function ChangelogBox({ version }: { version: string }) {
   const fetchReleases = React.useCallback(async (page: number = 1) => {
     try {
       const response = await fetch(
-        `https://api.github.com/repos/viren070/aiostreams/releases?per_page=100&page=${page}`
+        `https://api.github.com/repos/MaheshSankaran/AI/releases?per_page=100&page=${page}`
       );
 
       if (!response.ok) throw new Error('Failed to fetch releases');

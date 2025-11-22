@@ -250,7 +250,7 @@ export class StremioTransformer {
       let statisticStreams = statistics.map((statistic) => ({
         name: statistic.title,
         description: statistic.description,
-        externalUrl: 'https://github.com/Viren070/AIOStreams',
+        externalUrl: 'https://github.com/MaheshSankaran/AI',
         streamData: {
           type: constants.STATISTIC_STREAM_TYPE,
         },
@@ -388,7 +388,7 @@ export class StremioTransformer {
     const {
       errorTitle = `[❌] ${Env.ADDON_NAME}`,
       errorDescription = 'Unknown error',
-      errorUrl = 'https://github.com/Viren070/AIOStreams',
+      errorUrl = 'https://github.com/MaheshSankaran/AI',
     } = options;
     return {
       name: errorTitle,
@@ -409,7 +409,7 @@ export class StremioTransformer {
     const {
       errorTitle = 'Unknown error',
       errorDescription = 'Unknown error',
-      errorUrl = 'https://github.com/Viren070/AIOStreams',
+      errorUrl = 'https://github.com/MaheshSankaran/AI',
     } = options;
     return {
       id: `error.${errorTitle}`,
@@ -438,7 +438,7 @@ export class StremioTransformer {
     } = options;
     return {
       transportName: 'http',
-      transportUrl: 'https://github.com/Viren070/AIOStreams',
+      transportUrl: 'https://github.com/MaheshSankaran/AI',
       manifest: {
         name: errorTitle,
         description: errorDescription,

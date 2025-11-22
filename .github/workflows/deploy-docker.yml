@@ -72,8 +72,8 @@ jobs:
           {
             echo 'DOCKER_IMAGE_TAGS<<EOF'
             for tag in ${TAGS}; do
-            echo "viren070/aiostreams:${tag}"
-            echo "ghcr.io/viren070/aiostreams:${tag}"
+            echo "MaheshSankaran/AI:${tag}"
+            echo "ghcr.io/MaheshSankaran/AI:${tag}"
             done
             echo EOF
           } >> "${GITHUB_ENV}"
@@ -155,17 +155,17 @@ jobs:
                   },
                   {
                     "name": "📍 View Images",
-                    "value": "[Docker Hub](https://hub.docker.com/r/viren070/aiostreams) · [GHCR](https://github.com/Viren070/AIOStreams/pkgs/container/aiostreams)",
+                    "value": "[Docker Hub](https://hub.docker.com/r/MaheshSankaran/AI) · [GHCR](https://github.com/MaheshSankaran/AI/pkgs/container/aiostreams)",
                     "inline": false
                   },
                   {
                     "name": "📝 View Release Notes",
-                    "value": "[GitHub](https://github.com/Viren070/AIOStreams/releases/tag/${{ inputs.ref }})",
+                    "value": "[GitHub](https://github.com/MaheshSankaran/AI/releases/tag/${{ inputs.ref }})",
                     "inline": false
                   },
                   {
                     "name": "🔗 View Build",
-                    "value": "[GitHub Actions](https://github.com/Viren070/aiostreams/actions/runs/${{ github.run_id }})",
+                    "value": "[GitHub Actions](https://github.com/MaheshSankaran/AI/actions/runs/${{ github.run_id }})",
                     "inline": false
                   }
                 ],
